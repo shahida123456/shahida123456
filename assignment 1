@@ -1,0 +1,7 @@
+a=1000,b=900
+<   a<b   false
+>   a>b   true
+>=  a>=b  true
+<=  a<=b  false
+==  a==b  false
+!=  a!=b  true
