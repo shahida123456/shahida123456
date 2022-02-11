@@ -1,0 +1,39 @@
+sno=int(input('enter sno'))
+sname=input('enter name')
+Sgroup=input('enter group:')
+S1=int(input('S1 marks:'))
+S2=int(input('S2 marks:'))
+S3=int(input('S3 marks:'))
+S4=int(input('S4 marks:'))
+S5=int(input('S5 marks:'))
+S6=int(input('S6 marks:'))
+total=S1+S2+S3+S4+S5+S6
+Avg=total/6
+if avg>=91:
+print('o-grade')
+elif avg>=81:
+print('A-grade')
+elif avg>=71:
+print('B-grade')
+elif avg>=61:
+print('C-grade')
+elif avg>=51:
+print('D-grade')
+elif avg>=40:
+print('pass')
+else:
+print('fail')
+
+Output:
+Enter sno2
+Enter name sunitha
+Enter group : mpcs
+S1 marks:70
+S2 marks:60
+S3 marks:80
+S4 marks:70
+S5 marks:60
+S6 marks:80
+total=420
+avg=70
+C-grade
