@@ -1,0 +1,20 @@
+rice=1250
+cornflour=125
+wheat=50
+maida=40
+sugar=70
+cname=input('Enter customer name:')
+cphno=input('Enter customer phno:')
+riceq=int(input('Enter no of rice bags:'))
+cornflourq=int(input('Enter no of cornflour packets:'))
+wheatq=int(input('Enter no of wheat packets:'))
+maidaq=int(input('Enter no of maida packets:'))
+sugarq=int(input('Enter no of sugar packets:'))
+bill=(rice*riceq)+(cornflour*cornflourq)+(wheat*wheatq)+(maida*maidaq)+(sugar*sugar)
+if bill>3000:
+  disc=bill*8/100
+  tax=bill*10/100
+else:
+    print('Invalid coupon code:')
+mainbill=bill-disc+tax
+print('bill ammount:',mainbill)
